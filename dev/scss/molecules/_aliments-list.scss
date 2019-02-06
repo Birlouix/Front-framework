@@ -1,0 +1,28 @@
+.aliments-list {
+	margin: 15px auto 20px;
+	width: 222px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+
+	li {
+		display: flex;
+		line-height: 43px;
+		margin-bottom: 15px;
+
+		img {
+			height: 43px;
+			margin-right: 15px;
+		}
+		
+		.close-button {
+			position: relative;
+			display: flex;
+			width: 16px;
+			height: 16px;
+			right: auto;
+			margin-right: 10px;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+// Grid element x3 Atom
+//
+// An info card with the name and description of a person.
+//
+//
+// markup:
+// <div class="grid-x3-content">
+//	The content
+// </div>
+//
+// Styleguide 1.7
+
+.grid-x3-content {
+	position: relative;
+	.card-grid-aliment-image {
+		max-height: 55px;
+	}
+}

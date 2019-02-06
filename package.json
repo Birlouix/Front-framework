@@ -1,0 +1,41 @@
+{
+  "name": "Front framework de test",
+  "version": "1.0.0",
+  "description": "front-generator",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/eslint/bin/eslint.js --cache --fix ./dev/js/"
+  },
+  "author": "Birlouix",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "del": "^3.0.0",
+    "eslint-plugin-node": "7.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-eslint": "^3.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-real-favicon": "^0.3.0",
+    "gulp-replace-image-src": "^1.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-stylelint": "^7.0.0",
+    "gulp-svg-symbols": "^3.2.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.5",
+    "merge-stream": "^1.0.1",
+    "run-sequence": "^2.2.1",
+    "sc5-styleguide": "^2.2.0",
+    "stylelint": "^9.4.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^3.3.0"
+  }
+}

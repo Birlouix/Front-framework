@@ -1,0 +1,22 @@
+// Aliment Image Card Atom
+//
+// An info card with the name and description of a person.
+//
+//
+// markup:
+// <img src="images/vegetalien.png" class="card-grid-aliment-image" />
+//
+// Styleguide 1.3
+
+.card-grid-aliment-image {
+	max-height: 80px;
+	display: block;
+	margin-bottom: 10px;
+}
+.card-grid-aliment-image+.card-grid-aliment-image {
+	opacity: 0;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translateX(-50%);
+}

@@ -1,0 +1,14 @@
+@mixin eachCard($selector, $amount) {
+	$gap : 25px;
+	
+	@for $i from 1 through $amount {
+		$theNumber : ($amount - $i) * $gap;
+		#{$selector}:nth-child(n+#{$i}) { 
+			top: $theNumber; 
+			z-index: $amount - $i ;
+			height: calc( 100% - #{$theNumber} ); 
+			@content; 
+		}
+		
+	}
+}

@@ -1,0 +1,33 @@
+.recap {
+	h3 {
+		font-family: 'Helvetica Neue', sans-serif;
+		color: #334150;
+		font-size: 18px;
+		font-weight: 500;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.44;
+		margin-bottom: 10px;
+	}
+	.card-grid.recap {
+		display: block;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		.grid-x2{
+			display: inline-block;
+			width: auto;
+			margin-right: 20px;
+			color: #00985f;
+			.card-grid-aliment-image{
+				margin: 0 auto 10px;
+			}
+		}
+	}
+	.aliments-list {
+		margin: 15px 0px 20px 10px;
+		width: auto;
+		.aliments-name {
+			text-decoration: none;
+		}
+	}
+}

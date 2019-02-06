@@ -1,0 +1,33 @@
+{
+	"tasksPath" : {
+		"source" : {
+			"sass" : "./dev/scss/**/*.scss",
+			"replaceImgSrc" : "./dist/*.html",
+			"images" : "dev/images/**/*.+(png|jpg|gif|svg)",
+			"fonts" : "dev/font/*.*",
+			"htmls" : "dev/**/*.html",
+			"useref" : "./dev/*.html",
+			"scripts" : "./dev/js/",
+			"favicon" : "./dev/favicon.png",
+			"SVGicons" : "./dev/icons/*.svg",
+			"styleguide" : "./dev/scss/general.scss"
+		},
+		"destination" : {
+			"sassDev" : "./dev/style",
+			"sassDist" : "./dist/style",
+			"scripts" : "./dist/js/",
+			"replaceImgSrc" : "./dist/",
+			"images" : "./dist/images",
+			"fonts" : "./dist/font",
+			"htmls" : "./dist/",
+			"useref" : "./dist/",
+			"favicon" : "./dist/favicon/",
+			"SVGicons" : "./dist/icons/",
+			"styleguide" : "./styleguide/"
+		}
+	},
+	"styleguide" : {
+		"readme" : "./styleguide.md",
+		"appRoot" : "/auchan/styleguide"
+	}
+}

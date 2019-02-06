@@ -1,0 +1,22 @@
+// Aliment Description Card Atom
+//
+// An info card with the name and description of a person.
+//
+//
+// markup:
+// <span class="card-grid-aliment-description">
+// 	Végétalien
+// </span>
+//
+// Styleguide 1.2
+
+.card-grid-aliment-description {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+}

@@ -1,0 +1,21 @@
+// Close button Atom
+//
+// An info card with the name and description of a person.
+//
+//
+// markup:
+// <div class="card">
+//	<div class="close-button"></div>
+// </div>
+//
+// Styleguide 1.5
+
+.close-button {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	background: url(../images/24-close@3x.png) no-repeat center center;
+	background-size: cover;
+	width: 24px;
+	height: 24px;
+}

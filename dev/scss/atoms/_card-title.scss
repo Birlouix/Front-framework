@@ -1,0 +1,25 @@
+// Card Title Atom
+//
+// An info card with the name and description of a person.
+//
+//
+// markup:
+// <h2 class="card-title">
+//	The title
+// </h2>
+//
+// Styleguide 1.4
+
+.card-title {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.28;
+	letter-spacing: normal;
+	text-align: center;
+	color: #334150;
+	margin-bottom: 30px;
+	min-height: 60px;
+}

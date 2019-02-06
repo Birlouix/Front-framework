@@ -1,0 +1,23 @@
+
+// Atoms
+//
+// This is the atoms chapter. Atoms are the only parts that contain actual
+// class and style definitions. The higher level abstractions are mere
+// composites of the existing atoms.
+//
+// Styleguide 1.0
+
+// styleguide:ignore:start
+
+@import 'header-icon';
+@import 'header-title';
+@import 'close-button';
+@import 'card-title';
+@import 'card-grid-aliment-image';
+@import 'card-grid-aliment-description';
+@import 'grid-x2-content';
+@import 'grid-x3-content';
+@import 'search';
+@import 'aliments-name';
+
+// styleguide:ignore:end
