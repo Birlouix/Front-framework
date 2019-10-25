@@ -20,7 +20,7 @@
 
 ## Configuration
 
-- The framework's main parameters à located in the `params.json` file
+- The framework's main parameters are located in the `params.json` file
 
 
 ## Tasks description
